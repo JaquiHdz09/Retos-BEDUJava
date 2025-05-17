@@ -1,0 +1,6 @@
+SUCCESS: Todo bien
+WARNING: Latencia alta
+ERROR: No se pudo conectar a la base de datos
+ERROR: Timeout en la prueba
+SUCCESS: Test finalizado
+WARNING: Tiempo de respuesta alto
