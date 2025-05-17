@@ -15,16 +15,16 @@ public class Principal {
         temas.add(new Tema("Lectura comprensiva", 2));
         temas.add(new Tema("Matemáticas básicas", 1));
         temas.add(new Tema("Cuidado del medio ambiente", 3));
-        temas.add(new Tema("Historia regional", 2));
-        temas.add(new Tema("Tecnología educativa", 1));
+        temas.add(new Tema("Redes Computacionales", 2));
+        temas.add(new Tema("Lenguajes de Interfaz", 1));
 
         // Repositorio concurrente de recursos
         ConcurrentHashMap<String, String> recursos = new ConcurrentHashMap<>();
         recursos.put("Lectura comprensiva", "https://recursos.edu/lectura");
         recursos.put("Matemáticas básicas", "https://recursos.edu/matematicas");
         recursos.put("Cuidado del medio ambiente", "https://recursos.edu/medioambiente");
-        recursos.put("Historia regional", "https://recursos.edu/historia");
-        recursos.put("Tecnología educativa", "https://recursos.edu/tecnologia");
+        recursos.put("Redes Computacionales", "https://recursos.edu/historia");
+        recursos.put("Lenguajes de Interfaz", "https://recursos.edu/tecnologia");
 
         // Aqui se muestran los temas ordenados por título
         System.out.println("📋 Temas ordenados alfabéticamente:");
